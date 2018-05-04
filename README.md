@@ -12,7 +12,12 @@ This portfolio project is intended to be a clone of the Steam website found at h
   * Landing page where user can make a "developer" profile.
   * Page then shows the developer profile and a list of their published games (initial list should be empty).
   * The dev profile allows the user to make blog posts about their games, add new games to their published games list, and edit their posts and games.
-  *
+  * Each game will have at _least_ a title, description, price, and an image.
+
+  _notes_
+
+    Going by my planning there needs to be a game component, a new-game component, a list of games component, and a developer-profile component.  The game component will need its own model.
+
 
 
 
