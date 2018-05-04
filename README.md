@@ -18,7 +18,15 @@ This portfolio project is intended to be a clone of the Steam website found at h
 
     Going by my planning there needs to be a game component, a new-game component, a list of games component, and a developer-profile component.  The game component will need its own model.
 
+## Set up Instructions
 
+  * Clone project from github
+  * navigate to parent directory and run npm install
+  * run ng serve --Development
+
+## Known Bugs and Issues
+
+  This app is currently non functioning.  Further efforts are being made to make this app work properly, please see the commit history for more information.
 
 
 
