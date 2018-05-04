@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmiter } from '@angular/core';
+import { DevProfile } from './../models/profile.model';
 
 @Component({
   selector: 'app-profile',
