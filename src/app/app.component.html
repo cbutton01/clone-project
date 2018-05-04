@@ -3,7 +3,6 @@
   <h1>
     Welcome to {{ title }}!
   </h1>
-  <app-game></app-game>
   <app-game-list [childGameList]="masterGameList" (clickSender)="editGame($event)"></app-game-list>
   <app-new-game (sendGame)="addGame($event)"></app-new-game>
   <app-profile></app-profile>
