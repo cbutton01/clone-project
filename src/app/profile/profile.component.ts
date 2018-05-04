@@ -1,4 +1,4 @@
-import { Component, OnInit, Input, Output, EventEmiter } from '@angular/core';
+import { Component, Input, Output, EventEmitter } from '@angular/core';
 import { DevProfile } from './../models/profile.model';
 
 @Component({
@@ -6,11 +6,8 @@ import { DevProfile } from './../models/profile.model';
   templateUrl: './profile.component.html',
   styleUrls: ['./profile.component.css']
 })
-export class ProfileComponent implements OnInit {
+export class ProfileComponent {
 
   constructor() { }
-
-  ngOnInit() {
-  }
 
 }
