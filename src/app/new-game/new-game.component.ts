@@ -9,8 +9,8 @@ import { Game }  from './../models/game.model';
 export class NewGameComponent {
   @Output() sendGame = new EventEmitter();
 
-  submitForm(title: string, description: string, price: string, thumbnail: string){
-    let newGame: Game = new Game(title, description, parseInt(price), thumbnail);
+  submitForm(title: string, description: string, price: string){
+    let newGame: Game = new Game(title, description, parseInt(price));
   }
 
 }

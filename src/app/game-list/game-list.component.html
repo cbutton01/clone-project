@@ -1,3 +1,11 @@
-<p>
-  game-list works!
-</p>
+<div class="card">
+  <div class="card" *ngFor="let game of games">
+    <div class="card-header bg-primary">
+      <h3>{{game.title}}</h3>
+    </div>
+    <div class="card-body card-text">
+      <p>{{game.description}}</p>
+      <h5>Price: ${{game.price}}.00</h5>
+    </div>
+  </div>
+</div>
