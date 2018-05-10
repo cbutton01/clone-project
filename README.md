@@ -3,6 +3,10 @@ _By Cameron Button_
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.0.
 
+## Warning
+
+Due to unforeseen complications and errors this project is no longer supported. Please redirect to https://github.com/cbutton01/steam-clone for the newer version of this project.
+
 ## Description
 
 This portfolio project is intended to be a clone of the Steam website found at https://store.steampowered.com/.  The intent behind it is to have a page where a game developer may make an account and put their games up for sale; this includes making a price for their game, a description, photos, and adding update posts about the state of the game.
